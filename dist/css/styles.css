@@ -12898,7 +12898,7 @@ html {
 
 .callout {
   padding: 15rem 0;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/5559852.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/5559852.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -12959,7 +12959,7 @@ footer.footer .social-link:hover {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/vecteezy_fantastic-galaxy-background-in-blue-tones_.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/vecteezy_fantastic-galaxy-background-in-blue-tones_.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;

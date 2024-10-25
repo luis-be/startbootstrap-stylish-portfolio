@@ -1,196 +1,274 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Stylish Portfolio - Start Bootstrap Template</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Simple line icons-->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <a class="menu-toggle rounded" href="#"><i class="fas fa-bars"></i></a>
-        <nav id="sidebar-wrapper">
-            <ul class="sidebar-nav">
-                <li class="sidebar-brand"><a href="#page-top">Start Bootstrap</a></li>
-                <li class="sidebar-nav-item"><a href="#page-top">Home</a></li>
-                <li class="sidebar-nav-item"><a href="#about">About</a></li>
-                <li class="sidebar-nav-item"><a href="#services">Services</a></li>
-                <li class="sidebar-nav-item"><a href="#portfolio">Portfolio</a></li>
-                <li class="sidebar-nav-item"><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-        <!-- Header-->
-        <header class="masthead d-flex align-items-center">
-            <div class="container px-4 px-lg-5 text-center">
-                <h1 class="mb-1">Stylish Portfolio</h1>
-                <h3 class="mb-5"><em>A Free Bootstrap Theme by Start Bootstrap</em></h3>
-                <a class="btn btn-primary btn-xl" href="#about">Find Out More</a>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="Página con bootstrap" />
+    <meta name="author" content="Casiano Benitez" />
+    <title>Casiano Benitez - Portfolio</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/img/user-secret-solid.svg" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Simple line icons-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css"
+        rel="stylesheet" />
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic"
+        rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <!-- Cargar Bootstrap Icons -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
+</head>
+
+<body id="page-top">
+    <!-- Navigation-->
+    <a class="menu-toggle rounded" href="#"><i class="fas fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <li class="sidebar-brand"><a href="#page-top">Ing. Casiano Benitez</a></li>
+            <li class="sidebar-nav-item"><a href="#page-top">Inicio</a></li>
+            <li class="sidebar-nav-item"><a href="#about">Sobre mí</a></li>
+            <li class="sidebar-nav-item"><a href="#services">Habilidades</a></li>
+            <li class="sidebar-nav-item"><a href="#cv">Currículum</a></li>
+            <li class="sidebar-nav-item"><a href="#portfolio">Proyectos</a></li>
+            <li class="sidebar-nav-item"><a href="#contact">Contacto</a></li>
+        </ul>
+    </nav>
+    <!-- Header -->
+    <header class="masthead d-flex align-items-center justify-content-center">
+        <div class="container px-4 px-lg-5 text-center">
+            <!-- Imagen centrada -->
+            <div class="mb-4">
+                <img src="assets/img/fotoPerfil.jpg" alt="Casiano Benitez" class="rounded-circle img-fluid profile-img">
             </div>
-        </header>
-        <!-- About-->
-        <section class="content-section bg-light" id="about">
-            <div class="container px-4 px-lg-5 text-center">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-10">
-                        <h2>Stylish Portfolio is the perfect theme for your next project!</h2>
-                        <p class="lead mb-5">
-                            This theme features a flexible, UX friendly sidebar menu and stock photos from our friends at
-                            <a href="https://unsplash.com/">Unsplash</a>
-                            !
-                        </p>
-                        <a class="btn btn-dark btn-xl" href="#services">What We Offer</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Services-->
-        <section class="content-section bg-primary text-white text-center" id="services">
-            <div class="container px-4 px-lg-5">
-                <div class="content-section-heading">
-                    <h3 class="text-secondary mb-0">Services</h3>
-                    <h2 class="mb-5">What We Offer</h2>
-                </div>
-                <div class="row gx-4 gx-lg-5">
-                    <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-screen-smartphone"></i></span>
-                        <h4><strong>Responsive</strong></h4>
-                        <p class="text-faded mb-0">Looks great on any screen size!</p>
-                    </div>
-                    <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-pencil"></i></span>
-                        <h4><strong>Redesigned</strong></h4>
-                        <p class="text-faded mb-0">Freshly redesigned for Bootstrap 5.</p>
-                    </div>
-                    <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-like"></i></span>
-                        <h4><strong>Favorited</strong></h4>
-                        <p class="text-faded mb-0">
-                            Millions of users
-                            <i class="fas fa-heart"></i>
-                            Start Bootstrap!
-                        </p>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-mustache"></i></span>
-                        <h4><strong>Question</strong></h4>
-                        <p class="text-faded mb-0">I mustache you a question...</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Callout-->
-        <section class="callout">
-            <div class="container px-4 px-lg-5 text-center">
-                <h2 class="mx-auto mb-5">
-                    Welcome to
-                    <em>your</em>
-                    next website!
-                </h2>
-                <a class="btn btn-primary btn-xl" href="https://startbootstrap.com/theme/stylish-portfolio/">Download Now!</a>
-            </div>
-        </section>
-        <!-- Portfolio-->
-        <section class="content-section" id="portfolio">
-            <div class="container px-4 px-lg-5">
-                <div class="content-section-heading text-center">
-                    <h3 class="text-secondary mb-0">Portfolio</h3>
-                    <h2 class="mb-5">Recent Projects</h2>
-                </div>
-                <div class="row gx-0">
-                    <div class="col-lg-6">
-                        <a class="portfolio-item" href="#!">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <div class="h2">Stationary</div>
-                                    <p class="mb-0">A yellow pencil with envelopes on a clean, blue backdrop!</p>
-                                </div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio-1.jpg" alt="..." />
-                        </a>
-                    </div>
-                    <div class="col-lg-6">
-                        <a class="portfolio-item" href="#!">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <div class="h2">Ice Cream</div>
-                                    <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
-                                </div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio-2.jpg" alt="..." />
-                        </a>
-                    </div>
-                    <div class="col-lg-6">
-                        <a class="portfolio-item" href="#!">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <div class="h2">Strawberries</div>
-                                    <p class="mb-0">Strawberries are such a tasty snack, especially with a little sugar on top!</p>
-                                </div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio-3.jpg" alt="..." />
-                        </a>
-                    </div>
-                    <div class="col-lg-6">
-                        <a class="portfolio-item" href="#!">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <div class="h2">Workspace</div>
-                                    <p class="mb-0">A yellow workspace with some scissors, pencils, and other objects.</p>
-                                </div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio-4.jpg" alt="..." />
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Call to Action-->
-        <section class="content-section bg-primary text-white">
-            <div class="container px-4 px-lg-5 text-center">
-                <h2 class="mb-4">The buttons below are impossible to resist...</h2>
-                <a class="btn btn-xl btn-light me-4" href="#!">Click Me!</a>
-                <a class="btn btn-xl btn-dark" href="#!">Look at Me!</a>
-            </div>
-        </section>
-        <!-- Map-->
-        <div class="map" id="contact">
-            <iframe src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
-            <br />
-            <small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a></small>
+
+            <!-- Descripción debajo de la imagen -->
+            <h2 class="section-title" style="
+              color: #8c58c5;
+              text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.2);">Casiano Benitez</h2>
+            <p class="mb-4" style=" 
+             color: #c8bdd4;
+             text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.2);">Soy Ingeniero en Informática, expandiendo mis
+                conocimientos sobre
+                el frontend y el backend.</p>
+
+            <!-- Botón para ir a la sección "About Me" -->
+            <a class="btn btn-primary btn-xl btn-custom" href="#about">Conoce más sobre mí</a>
         </div>
-        <!-- Footer-->
-        <footer class="footer text-center">
-            <div class="container px-4 px-lg-5">
-                <ul class="list-inline mb-5">
-                    <li class="list-inline-item">
-                        <a class="social-link rounded-circle text-white mr-3" href="#!"><i class="icon-social-facebook"></i></a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a class="social-link rounded-circle text-white mr-3" href="#!"><i class="icon-social-twitter"></i></a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a class="social-link rounded-circle text-white" href="#!"><i class="icon-social-github"></i></a>
-                    </li>
-                </ul>
-                <p class="text-muted small mb-0">Copyright &copy; Your Website 2023</p>
+    </header>
+
+    <!-- About -->
+    <section class="content-section bg-dark" id="about">
+        <div class="container px-4 px-lg-5 text-center">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-lg-10">
+                    <h2 class="section-title">Sobre mí</h2>
+                    <p class="lead mb-5" style="text-decoration-color: rgb(241, 241, 241); font-weight: 400; color: white;">
+                        Soy Ingeniero Informático, recibido de la Universidad del Norte. Tengo un hambre insaciable por
+                        el conocimiento y me encanta aprender cosas nuevas. Me especializo más en el área de hardware y
+                        soporte técnico, pero siempre estoy aprendiendo nuevas tecnologías para el desarrollo de
+                        software.
+
+                    </p>
+                    <a class="btn btn-custom" href="#services">Mis habilidades</a>
+                </div>
             </div>
-        </footer>
-        <!-- Scroll to Top Button-->
-        <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="content-section bg-primary text-white text-center" id="services">
+        <div class="container px-4 px-lg-5" >
+            <h2 class="section-title" style="color: #FFD700;">Habilidades</h2>
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <span class="service-icon rounded-circle mx-auto mb-2 icon-zoom" style="font-size: 1.5rem;"><i
+                            class="fa-solid fa-language"></i></span>
+                    <h5><strong>Traducción</strong></h5>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <span class="service-icon rounded-circle mx-auto mb-2 icon-zoom" style="font-size: 1.5rem;"><i
+                            class="fa-solid fa-file-code"></i></span>
+                    <h5><strong>Desarrollo Frontend</strong></h5>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <span class="service-icon rounded-circle mx-auto mb-2 icon-zoom" style="font-size: 1.5rem;"><i
+                            class="fa-solid fa-laptop-code"></i></span>
+                    <h5><strong>Desarrollo Backend</strong></h5>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <span class="service-icon rounded-circle mx-auto mb-2 icon-zoom" style="font-size: 1.5rem;"><i
+                            class="fa-solid fa-screwdriver-wrench"></i></span>
+                    <h5><strong>Soporte Técnico</strong></h5>
+                    
+                </div>
+            </div>
+            <a class="btn btn-primary btn-xl btn-custom" href="#cv">Mi Currículum Vitae</a>
+        </div>
+    </section>
+
+    <!-- Callout-->
+    <section class="callout text-center" id="cv" style="background-color: #FFD700; padding: 17rem;">
+        <div class="container px-4 px-lg-5">
+            <h2 class="callout-title mx-auto mb-4" style="color: #FFD700;">¡Descarga mi CV!</h2>
+            <em class="callout-emphasis">Conoce más sobre mi experiencia y habilidades.</em>
+            <p class="callout-text">¡Emocionado por empezar algo nuevo juntos!</p>
+            <a class="btn btn-custom" href="assets/cv/Currículum Casiano Benitez (1).pdf" download>Descargar CV</a>
+            <br>
+            <br>
+            <a class="btn btn-custom" href="#portfolio">Portfolio</a>
+                
+        </div>
+        
+    </section>
+
+
+    <!-- Portfolio -->
+    <section class="content-section bg-dark" id="portfolio">
+        <div class="container px-4 px-lg-5">
+            <div class="content-section-heading text-center">
+                <h3 class="text-secondary mb-0">Portfolio</h3>
+                <h2 class="section-title mb-5">Proyectos Recientes</h2>
+            </div>
+            <div class="row gx-0">
+                <div class="col-lg-6">
+                    <a class="portfolio-item" href="https://artis-tesis.glideapp.io" target="_blank">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <div class="h2"
+                                    style="color: #fff; background: #bf281465; font-size: x-large; font-style:oblique;">
+                                    Artis</div>
+                                <p class="mb-0" style="color: #f8f9fa; background: #bf281465; font-weight: bold;">
+                                    Aplicación estilo tinder para contratación de artistas y dueños de locales de
+                                    eventos, hecho en metodología NoCode con Glide.
+                                </p>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/artis.png" alt="Imagen de Artis" />
+                    </a>
+                </div>
+                <div class="col-lg-6">
+                    <a class="portfolio-item" href="https://ramenedish.itch.io/juego-del-caballero" target="_blank">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <div class="h2"
+                                    style="color: #fff; background: #bf281465; font-size: x-large; font-style:oblique;">
+                                    Juego del Caballero</div>
+                                <p class="mb-0" style="color: #f8f9fa; background:#bf281465;"> Juego plataformero creado
+                                    en Godot 4. Publicado en Itch.io</p>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/juego.png" alt="..." />
+                    </a>
+                </div>
+
+            </div>
+            <br>
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <a class="btn btn-custom" href="#contact">Mi Contacto</a>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action-->
+    <section class="content-section bg-primary text-white text-center" style="background-color: #007bff;">
+        <div class="container px-4 px-lg-5">
+            <h2 class="mb-4" style="color: #ffffff;">¿Querés seguirme en github?</h2>
+            <!-- Centrando el párrafo -->
+            <p class="mb-4" style="color: #f8f9fa; max-width: 600px; margin: 0 auto; text-align: center;">
+                Visita mi cuenta para ver mi evolución.
+            </p>
+            <!-- Botón actualizado con icono de GitHub -->
+            <a class="btn btn-primary btn-xl btn-custom" href="https://github.com/luis-be" target="_blank"
+                style="display: inline-flex; align-items: center; justify-content: center;">
+                <i class="fab fa-github me-2"></i> Mi GitHub
+            </a>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="content-section bg-light text-center" id="contact" style="padding: 4rem 0;">
+        <div class="container px-4 px-lg-5">
+            <div class="content-section-heading">
+                <h3 class="text-secondary mb-0">Contacto</h3>
+                <h2 class="section-title mb-5">Ponte en contacto conmigo</h2>
+            </div>
+            <!-- Formulario de contacto -->
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <form id="contactForm">
+                        <div class="form-group mb-3">
+                            <input class="form-control form-control-lg" id="name" type="text" placeholder="Tu Nombre"
+                                required />
+                        </div>
+                        <div class="form-group mb-3">
+                            <input class="form-control form-control-lg" id="email" type="email"
+                                placeholder="Tu Correo Electrónico" required />
+                        </div>
+                        <div class="form-group mb-3">
+                            <textarea class="form-control form-control-lg" id="message" rows="5"
+                                placeholder="Tu Mensaje" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button class="btn btn-primary btn-xl btn-custom" type="submit">Enviar Mensaje</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer adaptado -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"
+        style="background-color: #BF1414; padding: 4rem 2rem;">
+        <!-- Logo genérico de la página -->
+        <i class="bi bi-laptop text-white mb-3" style="font-size: 3rem;"></i>
+        <!-- Texto motivacional -->
+        <p class="footer-texto text-center text-white mb-4" style="font-size: 1.25rem;">
+            Tengo muchas ganas de seguir creciendo.<br>Hagamos algo juntos.
+        </p>
+
+
+        <!-- Iconos de redes sociales -->
+        <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center mb-4">
+            <a href="https://twitter.com/casiano_lu" target="_blank" rel="noopener noreferrer" class="mx-3">
+                <i class="bi bi-twitter text-white" style="font-size: 1.5rem;"></i>
+            </a>
+            <a href="https://github.com/luis-be" target="_blank" rel="noopener noreferrer" class="mx-3">
+                <i class="bi bi-github text-white" style="font-size: 1.5rem;"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/luis-benitez-3507a1207/" target="_blank" rel="noopener noreferrer"
+                class="mx-3">
+                <i class="bi bi-linkedin text-white" style="font-size: 1.5rem;"></i>
+            </a>
+            <a href="https://www.instagram.com/casiano_lu/" target="_blank" rel="noopener noreferrer" class="mx-3">
+                <i class="bi bi-instagram text-white" style="font-size: 1.5rem;"></i>
+            </a>
+            <a href="luis.benitez.ayala@gmail.com" target="_blank" rel="noopener noreferrer" class="mx-3">
+                <i class="bi bi-envelope text-white" style="font-size: 1.5rem;"></i>
+            </a>
+        </div>
+
+        <!-- Derechos de autor -->
+        <div class="derechos-de-autor text-white small">
+            Creado por Casiano Benitez (2024) &#169;
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
+
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+</body>
+
 </html>
